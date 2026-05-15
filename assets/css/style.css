@@ -326,9 +326,11 @@ img, svg { display: block; max-width: 100%; }
 .search-icon {
   position: absolute; left: .9rem; top: 50%;
   transform: translateY(-50%);
-  color: var(--text-dim); font-size: 1rem;
+  color: var(--text-dim); font-size: var(--t-xs);
+  font-weight: 600; letter-spacing: .03em;
   pointer-events: none;
 }
+.search-input { padding-left: 4rem; }
 
 /* ── CARDS ── */
 .cards-grid {
@@ -633,10 +635,6 @@ img, svg { display: block; max-width: 100%; }
   line-height: 1;
   letter-spacing: -.05em;
   pointer-events: none;
-}
-.step-icon {
-  font-size: 1.6rem;
-  margin-bottom: .75rem;
 }
 .step h3 {
   font-size: var(--t-base);
