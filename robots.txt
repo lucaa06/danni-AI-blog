@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /generate_pages.py
+Disallow: /generate_csv.py
+Disallow: /topics_database.csv
+
+Sitemap: https://danni-ai.it/sitemap.xml

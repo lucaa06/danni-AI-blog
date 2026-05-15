@@ -1,0 +1,21 @@
+# Development & generation files (excluded from production repo)
+generate_csv.py
+generate_pages.py
+topics_database.csv
+csvPrompt.xml
+prompt.xml
+debuggher.xml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
