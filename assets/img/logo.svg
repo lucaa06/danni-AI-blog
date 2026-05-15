@@ -1,0 +1,30 @@
+<svg width="160" height="40" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Scale mark -->
+  <g transform="translate(0, 4)">
+    <!-- Center pillar -->
+    <rect x="15.5" y="4" width="1.5" height="22" fill="#c8a042"/>
+    <!-- Base bar -->
+    <rect x="7" y="26" width="17" height="2" rx="1" fill="#c8a042"/>
+    <!-- Beam -->
+    <rect x="4" y="8" width="24" height="1.5" rx="0.75" fill="#c8a042"/>
+    <!-- Beam top dot -->
+    <circle cx="16.25" cy="4.5" r="1.5" fill="#c8a042"/>
+    <!-- Left chain -->
+    <line x1="7" y1="9.5" x2="7" y2="17" stroke="#c8a042" stroke-width="1"/>
+    <!-- Right chain -->
+    <line x1="25" y1="9.5" x2="25" y2="17" stroke="#c8a042" stroke-width="1"/>
+    <!-- Left pan (circuit hex shape) -->
+    <circle cx="7" cy="20" r="3.5" fill="none" stroke="#c8a042" stroke-width="1.2"/>
+    <circle cx="7" cy="20" r="1.2" fill="#c8a042"/>
+    <!-- Right pan -->
+    <circle cx="25" cy="20" r="3.5" fill="none" stroke="#c8a042" stroke-width="1.2"/>
+    <circle cx="25" cy="20" r="1.2" fill="#c8a042"/>
+    <!-- Circuit node dots on beam -->
+    <circle cx="7" cy="8.75" r="1.2" fill="#c8a042"/>
+    <circle cx="25" cy="8.75" r="1.2" fill="#c8a042"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="40" y="26" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="800" letter-spacing="-0.5" fill="#e2e2e2">Danni</text>
+  <text x="99" y="26" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="800" letter-spacing="-0.5" fill="#c8a042">-AI</text>
+  <text x="126" y="26" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="800" letter-spacing="-0.5" fill="#e2e2e2">.it</text>
+</svg>

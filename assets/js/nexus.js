@@ -111,11 +111,11 @@
   const banner = document.getElementById('cookie-banner');
   if (banner && !localStorage.getItem('ck_consent')) {
     banner.style.display = 'flex';
-    banner.querySelector('.cookie-accept')?.addEventListener('click', () => {
+    banner.querySelector('.ck-accept')?.addEventListener('click', () => {
       localStorage.setItem('ck_consent', '1');
       banner.style.display = 'none';
     });
-    banner.querySelector('.cookie-decline')?.addEventListener('click', () => {
+    banner.querySelector('.ck-decline')?.addEventListener('click', () => {
       localStorage.setItem('ck_consent', '0');
       banner.style.display = 'none';
     });
